@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.square {
+  /* display: flex; */
+  /* margin: 0%; */
+  padding: auto;
+  width : 3rem;
+  height : 3rem;
+  /* border : 1vh solid black; */
+  border-radius: none;
+  text-size-adjust: auto;
+  text-align:center;
+}
+.game-board {
+  /* display: flex; */
+  border-collapse: collapse;
+  /* flex-wrap : wrap; */
+  border: 2px solid black;
+}
+.game-info {
+  width: 50vw; 
+  border : 2px dashed black;
+}
+
+.game-board, .game-info {
+  /* display: flex; */
+  /* float: left; */
+  /* flex-direction: row; */
+  width: 50%;
+  border : 2px dashed black;
+}
+button {
+  border: 1 px solid black;
+  border-collapse: collapse;
+  background-color: white;
+  /* transform: none; */
+} 
+.game-info-button {
+  border:none;
+  background-color: aliceblue;
+}
+
+.game{
+  display : flex;
+  width:100%;
+  height: auto;
+  border: 2px solid black;
+}
